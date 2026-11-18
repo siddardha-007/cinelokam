@@ -170,7 +170,9 @@ body,
   flex: 0 0 82px;
   text-decoration: none;
   color: white;
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
 }
 
 .classic-card:hover {
@@ -272,7 +274,9 @@ body,
   font-size: 13px;
   color: rgba(255, 255, 255, 0.25);
   padding-right: 4px;
-  transition: color 0.18s ease, transform 0.18s ease;
+  transition:
+    color 0.18s ease,
+    transform 0.18s ease;
 }
 
 .movie-card:hover .movie-arrow {
@@ -598,4 +602,16 @@ body,
     width: 12px;
     height: 12px;
   }
+}
+
+.dataset-note {
+  flex-shrink: 0;
+  margin-top: 10px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.42);
 }

@@ -519,6 +519,10 @@ function App() {
                 </div>
               )}
           </div>
+
+          <div className="dataset-note">
+            Data from TMDB (Nov 2026) · Not endorsed by TMDB
+          </div>
         </div>
       )}
 
